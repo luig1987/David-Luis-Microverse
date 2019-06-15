@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>Technical Documentation</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-		<main id="main-doc">
-      <nav id="navbar">
+		<main id="main-doc" class="row">
+			<div class="col-md-3">
+      <nav id="navbar" class="nav flex-column">
 				<header>Lorem Technical Documentation</header>
-				<a class="nav-link" href="#First_Section">First Section</a>
-				<a class="nav-link" href="#Second_Section">Second Section</a>
-				<a class="nav-link" href="#Third_Section">Third Section</a>
-				<a class="nav-link" href="#Fourth_Section">Fourth Section</a>
-				<a class="nav-link" href="#Fifth_Section">Fifth Section</a>
+				<a class="nav-link nav-item" href="#First_Section">First Section</a>
+				<a class="nav-link nav-item" href="#Second_Section">Second Section</a>
+				<a class="nav-link nav-item" href="#Third_Section">Third Section</a>
+				<a class="nav-link nav-item" href="#Fourth_Section">Fourth Section</a>
+				<a class="nav-link nav-item" href="#Fifth_Section">Fifth Section</a>
 			</nav>
+			</div>
+			<div class="col-md-9">
 			<section class="main-section" id="First_Section" >
         <header>
           <p>First Section</p>
@@ -70,6 +74,7 @@
             <li>Lorem Ipsum</li>
           </ul>
       </section>
+			</div>
 		</main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
